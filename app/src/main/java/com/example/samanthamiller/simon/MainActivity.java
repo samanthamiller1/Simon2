@@ -11,15 +11,29 @@ import java.util.List;
 
 public class MainActivity extends ActionBarActivity {
 
-    
-    List<Integer> SEQUENCE = new ArrayList<Integer>();
+
+    List<Integer> SEQUENCE;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+    Intialize();
+    StartRound();
+
     }
+
+    private void Intialize() {
+      SEQUENCE =  new ArrayList<Integer>();
+    }
+
+
+
+
+
+
 
 
     @Override
