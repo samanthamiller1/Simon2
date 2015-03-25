@@ -29,6 +29,7 @@ public class MainActivity extends ActionBarActivity {
       SEQUENCE =  new ArrayList<Integer>();
     }
 
+<<<<<<< Updated upstream
 
 
 
@@ -36,6 +37,8 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+=======
+>>>>>>> Stashed changes
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
